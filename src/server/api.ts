@@ -1,7 +1,4 @@
-import { Elysia, t } from 'elysia';
-import { eq } from 'drizzle-orm';
-
-import { db, purchases } from '@/lib/db';
+import { Elysia } from 'elysia';
 
 import { meModule } from './modules/me';
 import {paymentsModule} from './modules/payments';
