@@ -9,7 +9,7 @@ import {
  } from "drizzle-orm/pg-core";
 
 
-export const purchaseTierEnum = pgEnum("purchase_tier", ["free", "pro", "enterprise"]);
+export const purchaseTierEnum = pgEnum("purchase_tier", ["pro"]);
 export const purchaseStatusEnum = pgEnum("purchase_status", ["completed", "partially_refunded", "refunded"]);
 
 export const users = pgTable("users", {
